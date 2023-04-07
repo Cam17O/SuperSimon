@@ -1,4 +1,4 @@
-
+let a = 1;
 let sequence = [];
 let saisie = null;
 let etape = 4;
@@ -25,7 +25,7 @@ function affichersequence(){
         if (sequence[i] == 3){
             switchbleu();
         }
-        setTimeout(1000)
+        sleep(2000); 
     }
 }
 
