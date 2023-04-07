@@ -1,0 +1,71 @@
+/* 
+    plateau 
+*/
+#plateau{
+    width: 504px;
+    height: 504px;
+    border: 1px solid black;
+}
+
+/* plateau after*/
+#plateau:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* 
+    zone de couleur 
+*/
+/* zone rouge */
+#rouge{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+}
+
+/* zone verte */
+#vert{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: right;
+}
+
+/* zone bleu */
+#bleu{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+}
+
+/* zone jaune */
+#jaune{
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+}
+
+/* 
+    zone off 
+*/
+.off{
+    opacity: 0.2;
+}
+
+/* 
+    Bouton de demarage
+*/
+#start{
+    margin-top: 10px;
+    width: 504px;
+    height: 100px;
+
+}
