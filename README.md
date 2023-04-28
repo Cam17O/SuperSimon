@@ -23,7 +23,7 @@ ___
 * selecteur d'élément avec css
 * selecteur d'élément avec js
 * modificateur de classe avec js
-
+* autre
 ___
 
 ## etape
