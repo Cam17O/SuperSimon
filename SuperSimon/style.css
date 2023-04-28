@@ -1,0 +1,117 @@
+/* 
+    plateau 
+*/
+#plateau{
+    width: 504px;
+    height: 504px;
+    border: 1px solid black;
+    border-radius : 100%;
+}
+
+/* plateau after*/
+#plateau:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* 
+    zone de couleur 
+*/
+/* zone rouge */
+#rouge{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    border-radius : 100% 0 0 0;
+}
+
+/* zone verte */
+#vert{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: right;
+    border-radius : 0 100% 0 0;
+}
+
+/* zone bleu */
+#bleu{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    float: left;
+    border-radius : 0 0 0 100%;
+}
+
+/* zone jaune */
+#jaune{
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    float: left;
+    border-radius : 0 0 100% 0;
+}
+
+/* zone noir */
+#noir{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+    position: absolute;
+    z-index: 2;
+    left: 160px;
+    top: 160px;
+
+    border-radius : 100%;
+}
+
+/* 
+    zone off 
+*/
+.off{
+    opacity: 0.2;
+}
+
+/* 
+    Bouton de demarage
+*/
+#start{
+    margin-top: 10px;
+    width: 504px;
+    height: 100px;
+    border-radius : 60% 40%;
+}
+
+.btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px #eee;
+    border-radius: 60% 40%;
+   }
+  
+  /* Demo Stuff End -> */
+  
+  /* <- Magic Stuff Start */
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+  }
